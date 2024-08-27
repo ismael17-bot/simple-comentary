@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ebeced;
+}
+
+.App {
+  padding: 0 30px;
+}
+
+.Novo-comentario {
+  background-color: #ffffff;
+  margin-bottom: 2rem;
+  border-radius: .5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+  padding: 1rem;
+}
+
+.Novo-comentario input, .Novo-comentario textarea {
+  color: #4a4a4a;
+  font-size: 1rem;
+  border: 1px solid #e2e8f0;
+  padding: .5rem 1rem;
+  margin: 1rem 0;
+  display: block;
+  border-radius: .5rem;
+}
+
+.Novo-comentario h2 {
+  margin: 0;
+}
+
+.Novo-comentario input{
+  width: 300px;
+}
+
+.Novo-comentario textarea{
+  width: 100%;
+}
+
+.Novo-comentario button {
+  background-color: #002e78;
+  color: #fff;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  border: none;
+}
+
+.Novo-comentario button:hover {
+  background-color: #3a6ab6;
+}
